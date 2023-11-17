@@ -116,6 +116,7 @@ a {
   vertical-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+  cursor: pointer;
   transition: var(--transition);
 }
 
