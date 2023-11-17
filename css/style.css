@@ -8,6 +8,8 @@
   --font-size: 16px;
   --width-desc: 540px;
   --transition: all .3s ease-in-out;
+  --fw-normal: 400;
+  --fw-medium: 500;
 }
 
 *, *::before, *::after {
@@ -25,7 +27,7 @@ body {
   font-size: 1rem;
   color: var(--title-color);
   background-color: var(--bg-color);
-  font-weight: 400;
+  font-weight: var(--fw-normal);
 }
 
 li {
@@ -94,7 +96,7 @@ a {
 
 .first-screen__title {
   margin: 154px 0 54px;
-  font-weight: 500;
+  font-weight: var(--fw-medium);
   font-size: 3rem;
 }
 
@@ -161,7 +163,7 @@ a {
 }
 
 .numbers__item-desc {
-  font-weight: 500;
+  font-weight: var(--fw-medium);
   font-size: 1.3rem;
   color: var(--white-color);
   margin-top: 10px;
@@ -170,7 +172,7 @@ a {
 .numbers__item-desc span {
   display: block;
   margin-top: 10px;
-  font-weight: 400;
+  font-weight: var(--fw-normal);
   font-size: 1rem;
 }
 /* end NUMBERS */
@@ -185,8 +187,8 @@ a {
 }
 
 .video__video-block {
-  width: 1110px;
-  height: 600px;
+  min-width: 1110px;
+  min-height: 600px;
   background-image: url(../assets/img/video-poster.jpg);
   margin: 0 auto 98px;
   display: flex;
@@ -212,7 +214,7 @@ a {
 
 .footer__name {
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: var(--fw-medium);
   font-size: 1.3rem;
 }
 
