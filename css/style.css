@@ -242,8 +242,7 @@ a {
   .numbers__items {
     gap: 1.25rem;
     justify-content: center;
-    margin-left: 9.375rem;
-    margin-right: 9.375rem;
+    flex-basis: 25%;
   }
 }
 
