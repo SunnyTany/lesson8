@@ -1,0 +1,43 @@
+.experience {
+  background-color: $blue-color;
+
+  &__title {
+    display: none;
+  }
+
+  &__items {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 6.25rem 0;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 0 0.3125rem;
+  }
+
+  &__item-image {
+    width: 3.125rem;
+    height: 3.125rem;
+    background-image: url(../../assets/images/number-img.svg);
+  }
+
+  &__item-desc {
+    font-weight: $fw-medium;
+    font-size: 1.3rem;
+    color: $white-color;
+    margin-top: 0.625rem;
+  }
+
+  &__item-desc span {
+    display: block;
+    margin-top: 0.625rem;
+    font-weight: $fw-normal;
+    font-size: 1rem;
+  }
+}
