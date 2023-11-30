@@ -1,0 +1,15 @@
+.footer {
+  background-color: $blue-color;
+  color: $white-color;
+  padding: 3.25rem 0 3rem;
+
+  &__name {
+    margin-bottom: 1.25rem;
+    font-weight: $fw-medium;
+    font-size: 1.3rem;
+  }
+  
+  &__copyright {
+    font-size: 0.8rem;
+  }
+}

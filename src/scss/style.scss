@@ -1,0 +1,84 @@
+@import "reset";
+@import "variables";
+@import "common";
+@import "header";
+@import "first-screen";
+@import "about";
+@import "experience";
+@import "video";
+@import "footer";
+
+/* start MEDIA queries */
+@media (max-width: 1180px) {
+  .container {
+    max-width: 75rem;
+    padding: 0.625rem 2.5rem;
+    margin: 0 auto;
+  }
+
+  .experience__items {
+    gap: 1.25rem;
+    justify-content: center;
+    flex-basis: 25%;
+  }
+}
+
+@media (max-width: 740px) {
+  .container {
+    padding: 0.625rem 1.25rem;
+  }
+
+  .header__menu {
+    max-width: 25rem;
+  }
+
+  .first-screen .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first-screen__title {
+    font-size: 2.1rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .first-screen__desc {
+    text-align: center;
+  }
+
+  .video__video-block {
+    min-height: 25rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    max-width: 40.625rem;
+  }
+
+  .experience__items {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .video__video-block {
+    min-height: 18.75rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .first-screen__title {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .first-screen__desc {
+    text-align: center;
+  }
+
+  .video__video-block {
+    min-height: 12.5rem;
+  }
+}
+/* end MEDIA queries */

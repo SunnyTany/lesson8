@@ -1,0 +1,22 @@
+.header {
+  margin-top: 4.875rem;
+
+  &__menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.8125rem;
+  }
+
+  &__menu-link {
+    padding: 1.25rem 0;
+    cursor: pointer;
+    text-shadow: 0 0.1875rem 0.1875rem rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    transition: $transition;
+
+    &:hover {
+      color: $blue-color;
+    }
+  }
+}
